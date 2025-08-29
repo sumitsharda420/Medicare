@@ -12,7 +12,10 @@
           "QuestPDF": "2025.7.0",
           "System.Data.SqlClient": "4.9.0",
           "System.Reflection": "4.3.0",
+          "TikaOnDotnet": "1.17.1",
+          "TikaOnDotnet.TextExtractor": "1.17.1",
           "UglyToad.PdfPig": "1.7.0-custom-5",
+          "iTextSharp": "5.5.13.4",
           "itext7": "9.2.0"
         },
         "runtime": {
@@ -49,6 +52,130 @@
           "lib/net8.0/Azure.Identity.dll": {
             "assemblyVersion": "1.13.2.0",
             "fileVersion": "1.1300.225.6404"
+          }
+        }
+      },
+      "BouncyCastle.Cryptography/2.4.0": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.4.0.33771"
+          }
+        }
+      },
+      "IKVM/8.1.5717": {
+        "runtime": {
+          "lib/IKVM.AWT.WinForms.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Beans.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Charsets.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Cldrdata.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Corba.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Core.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Jdbc.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Localedata.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Management.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Media.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Misc.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Naming.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Nashorn.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Remoting.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Security.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.SwingAWT.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Text.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Tools.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.Util.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.XML.API.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.XML.Bind.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.XML.Crypto.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.XML.Parse.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.XML.Transform.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.XML.WebServices.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.OpenJDK.XML.XPath.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.Runtime.JNI.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
+          },
+          "lib/IKVM.Runtime.dll": {
+            "assemblyVersion": "8.1.5717.0",
+            "fileVersion": "8.1.5717.0"
           }
         }
       },
@@ -132,6 +259,17 @@
       "itext7/9.2.0": {
         "dependencies": {
           "itext": "9.2.0"
+        }
+      },
+      "iTextSharp/5.5.13.4": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.4.0"
+        },
+        "runtime": {
+          "lib/net461/itextsharp.dll": {
+            "assemblyVersion": "5.5.13.4",
+            "fileVersion": "5.5.13.4"
+          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -1417,6 +1555,28 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "TikaOnDotnet/1.17.1": {
+        "dependencies": {
+          "IKVM": "8.1.5717"
+        },
+        "runtime": {
+          "lib/TikaOnDotNet.dll": {
+            "assemblyVersion": "1.17.1.0",
+            "fileVersion": "1.17.1.0"
+          }
+        }
+      },
+      "TikaOnDotnet.TextExtractor/1.17.1": {
+        "dependencies": {
+          "TikaOnDotnet": "1.17.1"
+        },
+        "runtime": {
+          "lib/TikaOnDotNet.TextExtraction.dll": {
+            "assemblyVersion": "1.17.1.0",
+            "fileVersion": "1.17.1.0"
+          }
+        }
+      },
       "UglyToad.PdfPig/1.7.0-custom-5": {
         "dependencies": {
           "UglyToad.PdfPig.Core": "1.7.0-custom-5",
@@ -1497,6 +1657,20 @@
       "path": "azure.identity/1.13.2",
       "hashPath": "azure.identity.1.13.2.nupkg.sha512"
     },
+    "BouncyCastle.Cryptography/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
+      "path": "bouncycastle.cryptography/2.4.0",
+      "hashPath": "bouncycastle.cryptography.2.4.0.nupkg.sha512"
+    },
+    "IKVM/8.1.5717": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5olx8s2XYTfu6xu59ozQi9Jz5s6IHdJTK+XEFKpPxxVHoQWphb2G78btQTu1Z69I18n0tpcJ/EK5Dg2wmHJQIA==",
+      "path": "ikvm/8.1.5717",
+      "hashPath": "ikvm.8.1.5717.nupkg.sha512"
+    },
     "itext/9.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1517,6 +1691,13 @@
       "sha512": "sha512-fsOz8BpXlMN5GJM+7gdpUCqYhOR4GWKT3krnhB6Tbwio7QxIMyos3x7DTfdYsDAPOojr+NW/iKmnDCB4Vc9xWg==",
       "path": "itext7/9.2.0",
       "hashPath": "itext7.9.2.0.nupkg.sha512"
+    },
+    "iTextSharp/5.5.13.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/cvCNv8AJ+XuD99u4NfHSSxkBJKTdvP36wcfQF9V1Cjzi1ycyFSa4vJ64a3DhFVUTKVO60WF8OmAqngQDTHgYA==",
+      "path": "itextsharp/5.5.13.4",
+      "hashPath": "itextsharp.5.5.13.4.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -2308,6 +2489,20 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "TikaOnDotnet/1.17.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-86DGfYa642cK/qGT3zy3FUZI1sfXpKTi52yU0UJhfYOw0JuWPMlpbvVU3KeJ1/sYSki2xtPLuk9ZAjSLz0M4rQ==",
+      "path": "tikaondotnet/1.17.1",
+      "hashPath": "tikaondotnet.1.17.1.nupkg.sha512"
+    },
+    "TikaOnDotnet.TextExtractor/1.17.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-scHGUIIWsTeX0RBM9kNgosbJoJxVAOH44ltu6LuCHDnZFLgSwcjmt/uBCvsSu7Dzc9u/wKZMATOcNOPA2qwjCw==",
+      "path": "tikaondotnet.textextractor/1.17.1",
+      "hashPath": "tikaondotnet.textextractor.1.17.1.nupkg.sha512"
     },
     "UglyToad.PdfPig/1.7.0-custom-5": {
       "type": "package",

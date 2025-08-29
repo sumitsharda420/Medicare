@@ -14,10 +14,12 @@
         "outputPath": "D:\\ProjectS\\Medicare\\Medicare\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\sumit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,9 +69,21 @@
               "target": "Package",
               "version": "[4.3.0, )"
             },
+            "TikaOnDotNet": {
+              "target": "Package",
+              "version": "[1.17.1, )"
+            },
+            "TikaOnDotnet.TextExtractor": {
+              "target": "Package",
+              "version": "[1.17.1, )"
+            },
             "UglyToad.PdfPig": {
               "target": "Package",
               "version": "[1.7.0-custom-5, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
             },
             "itext7": {
               "target": "Package",
