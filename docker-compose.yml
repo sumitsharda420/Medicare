@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: ./Medicare        # Yeh folder jaha tumhara project + Dockerfile hai
+      dockerfile: Dockerfile     # Explicitly bataya taaki miss na ho
+    container_name: medicare_app
+    working_dir: /app
+    ports:
+      - "5000:5000"              # App port
+    volumes:
+      - ./Medicare:/app          # Hot reload ke liye
+    environment:
+      DB_SERVER: host.docker.internal,1433
+      DB_NAME: us_dhvn_multi
+      DB_USER: SumitSharda
+      DB_PASS: Sumit#1
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: medicare_db
+    environment:
+      SA_PASSWORD: "Sumit#1"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql   # SQL data persist karega
+
+volumes:
+  sql_data:

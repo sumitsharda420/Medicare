@@ -8,14 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="itext7" Version="9.2.0" />
-    <PackageReference Include="iTextSharp" Version="5.5.13.4" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0-preview2.25178.5" />
     <PackageReference Include="QuestPDF" Version="2025.7.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
     <PackageReference Include="System.Reflection" Version="4.3.0" />
-    <PackageReference Include="TikaOnDotNet" Version="1.17.1" />
-    <PackageReference Include="TikaOnDotnet.TextExtractor" Version="1.17.1" />
     <PackageReference Include="UglyToad.PdfPig" Version="1.7.0-custom-5" />
   </ItemGroup>
 
