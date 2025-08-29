@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Text;
-using Medicare;
 using Microsoft.Data.SqlClient;
-using org.apache.tika.detect;
-using org.apache.tika.extractor;
-using org.apache.tika.parser;
-using org.apache.tika.parser.txt;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
@@ -15,7 +10,22 @@ using UglyToad.PdfPig.Graphics;
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 QuestPDF.Settings.License = LicenseType.Community;
-string connectionString = "Server=localhost;Database=us_dhvn_multi;Integrated Security=True;TrustServerCertificate=True;";
+
+string server = Environment.GetEnvironmentVariable("DB_SERVER") ?? "localhost";
+string database = Environment.GetEnvironmentVariable("DB_NAME") ?? "us_dhvn_multi";
+string user = Environment.GetEnvironmentVariable("DB_USER") ?? "SumitSharda";
+string pass = Environment.GetEnvironmentVariable("DB_PASS") ?? "Sumit#1";
+
+string connectionString;
+if (!string.IsNullOrEmpty(user))
+{
+    connectionString = $"Server={server};Database={database};User Id={user};Password={pass};TrustServerCertificate=True;";
+}
+else
+{
+    connectionString = $"Server={server};Database={database};Integrated Security=True;TrustServerCertificate=True;";
+}
+//string connectionString = "Server=localhost;Database=us_dhvn_multi;Integrated Security=True;TrustServerCertificate=True;";
 string baseOutputDir = @"C:\ExportedRecords";
 
 
@@ -79,7 +89,7 @@ static List<NoteRecord> LoadProgressNotes(string connStr)
     var list = new List<NoteRecord>();
 
     string query = @"
-SELECT 
+SELECT top(5)
     pn.pn_id AS RecordId,
     mpi.last_name + ',' + mpi.first_name AS ResidentName,
     cl.client_id_number AS MRN,

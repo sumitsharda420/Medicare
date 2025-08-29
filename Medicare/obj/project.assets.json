@@ -45,82 +45,6 @@
           }
         }
       },
-      "BouncyCastle.Cryptography/2.4.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/BouncyCastle.Cryptography.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/BouncyCastle.Cryptography.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "IKVM/8.1.5717": {
-        "type": "package",
-        "compile": {
-          "lib/IKVM.AWT.WinForms.dll": {},
-          "lib/IKVM.OpenJDK.Beans.dll": {},
-          "lib/IKVM.OpenJDK.Charsets.dll": {},
-          "lib/IKVM.OpenJDK.Cldrdata.dll": {},
-          "lib/IKVM.OpenJDK.Corba.dll": {},
-          "lib/IKVM.OpenJDK.Core.dll": {},
-          "lib/IKVM.OpenJDK.Jdbc.dll": {},
-          "lib/IKVM.OpenJDK.Localedata.dll": {},
-          "lib/IKVM.OpenJDK.Management.dll": {},
-          "lib/IKVM.OpenJDK.Media.dll": {},
-          "lib/IKVM.OpenJDK.Misc.dll": {},
-          "lib/IKVM.OpenJDK.Naming.dll": {},
-          "lib/IKVM.OpenJDK.Nashorn.dll": {},
-          "lib/IKVM.OpenJDK.Remoting.dll": {},
-          "lib/IKVM.OpenJDK.Security.dll": {},
-          "lib/IKVM.OpenJDK.SwingAWT.dll": {},
-          "lib/IKVM.OpenJDK.Text.dll": {},
-          "lib/IKVM.OpenJDK.Tools.dll": {},
-          "lib/IKVM.OpenJDK.Util.dll": {},
-          "lib/IKVM.OpenJDK.XML.API.dll": {},
-          "lib/IKVM.OpenJDK.XML.Bind.dll": {},
-          "lib/IKVM.OpenJDK.XML.Crypto.dll": {},
-          "lib/IKVM.OpenJDK.XML.Parse.dll": {},
-          "lib/IKVM.OpenJDK.XML.Transform.dll": {},
-          "lib/IKVM.OpenJDK.XML.WebServices.dll": {},
-          "lib/IKVM.OpenJDK.XML.XPath.dll": {},
-          "lib/IKVM.Runtime.JNI.dll": {},
-          "lib/IKVM.Runtime.dll": {}
-        },
-        "runtime": {
-          "lib/IKVM.AWT.WinForms.dll": {},
-          "lib/IKVM.OpenJDK.Beans.dll": {},
-          "lib/IKVM.OpenJDK.Charsets.dll": {},
-          "lib/IKVM.OpenJDK.Cldrdata.dll": {},
-          "lib/IKVM.OpenJDK.Corba.dll": {},
-          "lib/IKVM.OpenJDK.Core.dll": {},
-          "lib/IKVM.OpenJDK.Jdbc.dll": {},
-          "lib/IKVM.OpenJDK.Localedata.dll": {},
-          "lib/IKVM.OpenJDK.Management.dll": {},
-          "lib/IKVM.OpenJDK.Media.dll": {},
-          "lib/IKVM.OpenJDK.Misc.dll": {},
-          "lib/IKVM.OpenJDK.Naming.dll": {},
-          "lib/IKVM.OpenJDK.Nashorn.dll": {},
-          "lib/IKVM.OpenJDK.Remoting.dll": {},
-          "lib/IKVM.OpenJDK.Security.dll": {},
-          "lib/IKVM.OpenJDK.SwingAWT.dll": {},
-          "lib/IKVM.OpenJDK.Text.dll": {},
-          "lib/IKVM.OpenJDK.Tools.dll": {},
-          "lib/IKVM.OpenJDK.Util.dll": {},
-          "lib/IKVM.OpenJDK.XML.API.dll": {},
-          "lib/IKVM.OpenJDK.XML.Bind.dll": {},
-          "lib/IKVM.OpenJDK.XML.Crypto.dll": {},
-          "lib/IKVM.OpenJDK.XML.Parse.dll": {},
-          "lib/IKVM.OpenJDK.XML.Transform.dll": {},
-          "lib/IKVM.OpenJDK.XML.WebServices.dll": {},
-          "lib/IKVM.OpenJDK.XML.XPath.dll": {},
-          "lib/IKVM.Runtime.JNI.dll": {},
-          "lib/IKVM.Runtime.dll": {}
-        }
-      },
       "itext/9.2.0": {
         "type": "package",
         "dependencies": {
@@ -232,18 +156,6 @@
         "type": "package",
         "dependencies": {
           "itext": "9.2.0"
-        }
-      },
-      "iTextSharp/5.5.13.4": {
-        "type": "package",
-        "dependencies": {
-          "BouncyCastle.Cryptography": "2.4.0"
-        },
-        "compile": {
-          "lib/net461/itextsharp.dll": {}
-        },
-        "runtime": {
-          "lib/net461/itextsharp.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -2339,32 +2251,6 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "TikaOnDotnet/1.17.1": {
-        "type": "package",
-        "dependencies": {
-          "IKVM": "8.1.5717"
-        },
-        "compile": {
-          "lib/TikaOnDotNet.dll": {}
-        },
-        "runtime": {
-          "lib/TikaOnDotNet.dll": {}
-        }
-      },
-      "TikaOnDotnet.TextExtractor/1.17.1": {
-        "type": "package",
-        "dependencies": {
-          "TikaOnDotnet": "[1.17.1]"
-        },
-        "compile": {
-          "lib/TikaOnDotNet.TextExtraction.dll": {},
-          "lib/TikaOnDotNet.dll": {}
-        },
-        "runtime": {
-          "lib/TikaOnDotNet.TextExtraction.dll": {},
-          "lib/TikaOnDotNet.dll": {}
-        }
-      },
       "UglyToad.PdfPig/1.7.0-custom-5": {
         "type": "package",
         "dependencies": {
@@ -2498,72 +2384,6 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "BouncyCastle.Cryptography/2.4.0": {
-      "sha512": "SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
-      "type": "package",
-      "path": "bouncycastle.cryptography/2.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "README.md",
-        "bouncycastle.cryptography.2.4.0.nupkg.sha512",
-        "bouncycastle.cryptography.nuspec",
-        "lib/net461/BouncyCastle.Cryptography.dll",
-        "lib/net461/BouncyCastle.Cryptography.xml",
-        "lib/net6.0/BouncyCastle.Cryptography.dll",
-        "lib/net6.0/BouncyCastle.Cryptography.xml",
-        "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
-        "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
-        "packageIcon.png"
-      ]
-    },
-    "IKVM/8.1.5717": {
-      "sha512": "5olx8s2XYTfu6xu59ozQi9Jz5s6IHdJTK+XEFKpPxxVHoQWphb2G78btQTu1Z69I18n0tpcJ/EK5Dg2wmHJQIA==",
-      "type": "package",
-      "path": "ikvm/8.1.5717",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "THIRD_PARTY_README",
-        "TRADEMARK",
-        "ikvm.8.1.5717.nupkg.sha512",
-        "ikvm.nuspec",
-        "lib/IKVM.AWT.WinForms.dll",
-        "lib/IKVM.OpenJDK.Beans.dll",
-        "lib/IKVM.OpenJDK.Charsets.dll",
-        "lib/IKVM.OpenJDK.Cldrdata.dll",
-        "lib/IKVM.OpenJDK.Corba.dll",
-        "lib/IKVM.OpenJDK.Core.dll",
-        "lib/IKVM.OpenJDK.Jdbc.dll",
-        "lib/IKVM.OpenJDK.Localedata.dll",
-        "lib/IKVM.OpenJDK.Management.dll",
-        "lib/IKVM.OpenJDK.Media.dll",
-        "lib/IKVM.OpenJDK.Misc.dll",
-        "lib/IKVM.OpenJDK.Naming.dll",
-        "lib/IKVM.OpenJDK.Nashorn.dll",
-        "lib/IKVM.OpenJDK.Remoting.dll",
-        "lib/IKVM.OpenJDK.Security.dll",
-        "lib/IKVM.OpenJDK.SwingAWT.dll",
-        "lib/IKVM.OpenJDK.Text.dll",
-        "lib/IKVM.OpenJDK.Tools.dll",
-        "lib/IKVM.OpenJDK.Util.dll",
-        "lib/IKVM.OpenJDK.XML.API.dll",
-        "lib/IKVM.OpenJDK.XML.Bind.dll",
-        "lib/IKVM.OpenJDK.XML.Crypto.dll",
-        "lib/IKVM.OpenJDK.XML.Parse.dll",
-        "lib/IKVM.OpenJDK.XML.Transform.dll",
-        "lib/IKVM.OpenJDK.XML.WebServices.dll",
-        "lib/IKVM.OpenJDK.XML.XPath.dll",
-        "lib/IKVM.Runtime.JNI.dll",
-        "lib/IKVM.Runtime.dll",
-        "x64/lib/JVM.DLL",
-        "x64/lib/ikvm-native-win32-x64.dll",
-        "x86/lib/JVM.DLL",
-        "x86/lib/ikvm-native-win32-x86.dll"
-      ]
-    },
     "itext/9.2.0": {
       "sha512": "UL1BBg5x3COlcZTPOy/+v0rpbYFtvq7H91fs66rRQ4iMJcQx8TiEo6LCpuwvLTTGFkJZ1FWcWr2aekUkQt6zhg==",
       "type": "package",
@@ -2654,22 +2474,6 @@
         "gnu-agpl-v3.0.md",
         "itext7.9.2.0.nupkg.sha512",
         "itext7.nuspec"
-      ]
-    },
-    "iTextSharp/5.5.13.4": {
-      "sha512": "/cvCNv8AJ+XuD99u4NfHSSxkBJKTdvP36wcfQF9V1Cjzi1ycyFSa4vJ64a3DhFVUTKVO60WF8OmAqngQDTHgYA==",
-      "type": "package",
-      "path": "itextsharp/5.5.13.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "gnu-agpl-v3.0.md",
-        "itextsharp.5.5.13.4.nupkg.sha512",
-        "itextsharp.nuspec",
-        "lib/net461/iTextSharp.xml",
-        "lib/net461/itextsharp.dll",
-        "notice.txt"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -7170,32 +6974,6 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "TikaOnDotnet/1.17.1": {
-      "sha512": "86DGfYa642cK/qGT3zy3FUZI1sfXpKTi52yU0UJhfYOw0JuWPMlpbvVU3KeJ1/sYSki2xtPLuk9ZAjSLz0M4rQ==",
-      "type": "package",
-      "path": "tikaondotnet/1.17.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/TikaOnDotNet.dll",
-        "tikaondotnet.1.17.1.nupkg.sha512",
-        "tikaondotnet.nuspec"
-      ]
-    },
-    "TikaOnDotnet.TextExtractor/1.17.1": {
-      "sha512": "scHGUIIWsTeX0RBM9kNgosbJoJxVAOH44ltu6LuCHDnZFLgSwcjmt/uBCvsSu7Dzc9u/wKZMATOcNOPA2qwjCw==",
-      "type": "package",
-      "path": "tikaondotnet.textextractor/1.17.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/TikaOnDotNet.TextExtraction.dll",
-        "lib/TikaOnDotNet.TextExtraction.pdb",
-        "lib/TikaOnDotNet.dll",
-        "tikaondotnet.textextractor.1.17.1.nupkg.sha512",
-        "tikaondotnet.textextractor.nuspec"
-      ]
-    },
     "UglyToad.PdfPig/1.7.0-custom-5": {
       "sha512": "mddnoBg+XV5YZJg+lp/LlXQ9NY9/oV/MoNjLbbLHw0uTymfyuinVePQB4ff/ELRv3s6n0G7h8q3Ycb3KYg+hgQ==",
       "type": "package",
@@ -7347,16 +7125,12 @@
       "QuestPDF >= 2025.7.0",
       "System.Data.SqlClient >= 4.9.0",
       "System.Reflection >= 4.3.0",
-      "TikaOnDotNet >= 1.17.1",
-      "TikaOnDotnet.TextExtractor >= 1.17.1",
       "UglyToad.PdfPig >= 1.7.0-custom-5",
-      "iTextSharp >= 5.5.13.4",
       "itext7 >= 9.2.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\sumit\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -7369,12 +7143,10 @@
       "outputPath": "D:\\ProjectS\\Medicare\\Medicare\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\sumit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7383,7 +7155,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7424,21 +7195,9 @@
             "target": "Package",
             "version": "[4.3.0, )"
           },
-          "TikaOnDotNet": {
-            "target": "Package",
-            "version": "[1.17.1, )"
-          },
-          "TikaOnDotnet.TextExtractor": {
-            "target": "Package",
-            "version": "[1.17.1, )"
-          },
           "UglyToad.PdfPig": {
             "target": "Package",
             "version": "[1.7.0-custom-5, )"
-          },
-          "iTextSharp": {
-            "target": "Package",
-            "version": "[5.5.13.4, )"
           },
           "itext7": {
             "target": "Package",
@@ -7464,47 +7223,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'IKVM 8.1.5717' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "IKVM",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "iTextSharp",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'TikaOnDotnet 1.17.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "TikaOnDotnet",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'TikaOnDotnet.TextExtractor 1.17.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "TikaOnDotnet.TextExtractor",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

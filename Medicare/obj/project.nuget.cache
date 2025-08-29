@@ -1,17 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sJRSJ0shf1I=",
+  "dgSpecHash": "AiiSAA/dwJw=",
   "success": true,
   "projectFilePath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sumit\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\azure.identity\\1.13.2\\azure.identity.1.13.2.nupkg.sha512",
-    "C:\\Users\\sumit\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
-    "C:\\Users\\sumit\\.nuget\\packages\\ikvm\\8.1.5717\\ikvm.8.1.5717.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\itext\\9.2.0\\itext.9.2.0.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\itext.commons\\9.2.0\\itext.commons.9.2.0.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\itext7\\9.2.0\\itext7.9.2.0.nupkg.sha512",
-    "C:\\Users\\sumit\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -125,62 +122,11 @@
     "C:\\Users\\sumit\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\sumit\\.nuget\\packages\\tikaondotnet\\1.17.1\\tikaondotnet.1.17.1.nupkg.sha512",
-    "C:\\Users\\sumit\\.nuget\\packages\\tikaondotnet.textextractor\\1.17.1\\tikaondotnet.textextractor.1.17.1.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\uglytoad.pdfpig\\1.7.0-custom-5\\uglytoad.pdfpig.1.7.0-custom-5.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\uglytoad.pdfpig.core\\1.7.0-custom-5\\uglytoad.pdfpig.core.1.7.0-custom-5.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\uglytoad.pdfpig.fonts\\1.7.0-custom-5\\uglytoad.pdfpig.fonts.1.7.0-custom-5.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\uglytoad.pdfpig.tokenization\\1.7.0-custom-5\\uglytoad.pdfpig.tokenization.1.7.0-custom-5.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\uglytoad.pdfpig.tokens\\1.7.0-custom-5\\uglytoad.pdfpig.tokens.1.7.0-custom-5.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "message": "Package 'IKVM 8.1.5717' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
-      "libraryId": "IKVM",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
-      "libraryId": "iTextSharp",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "message": "Package 'TikaOnDotnet 1.17.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
-      "libraryId": "TikaOnDotnet",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "message": "Package 'TikaOnDotnet.TextExtractor 1.17.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\ProjectS\\Medicare\\Medicare\\Medicare.csproj",
-      "libraryId": "TikaOnDotnet.TextExtractor",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
